@@ -35,9 +35,9 @@
 
 </head>
 <body>
-    <header>
+    <header class="md:container md:mx-auto">
       <!-- section Navbar Start -->
-        <section class="mt-auto ml-40 mr-40 w-auto">
+        <section>
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -64,7 +64,7 @@
         <!-- navber END -->
 
         <!-- Banner Start -->
-        <section class=" relative mt-12 ml-40 mr-40 w-auto ">
+        <section class=" relative mt-12">
           <div class="carousel w-full rounded-2xl ">
             <div id="slide1" class="carousel-item relative w-full h-3/4 ">
               <img src="Images/1.png" class="w-full" />
@@ -91,12 +91,12 @@
         </section>
 
         <!-- Professional Hockeys Club section -->
-        <section class="mt-12 ml-40 mr-40 w-auto">
+        <section class="mt-12">
           <div class="text-center mb-10">
             <h3 class="font-extrabold text-4xl mb-4">Professional Hockeys Club</h3>
             <p class="font-medium text-base opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
           </div>
-          <div class="flex justify-between">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
             <div>
               <div class="relative ml-14">
                 <div>
@@ -168,16 +168,16 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="md:container md:mx-auto">
        <!-- Program Sections -->
-       <section class="mt-12 ml-40 mr-40 w-auto">
+       <section class="mt-12">
           <div class="justify-center text-center gap-4">
             <h2 class="font-extrabold text-4xl">Program Sections</h2>
             <p class="font-medium opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br>Purus urna in sit nullam proin. </p>
           </div>
          <div class="flex gap-6">
           <div class="relative mt-4">
-            <img src="Images/2.png" alt="">
+            <img class="" src="Images/2.png" alt="">
           <div class="absolute bottom-9 text-white justify-start pt-8 pl-4 pb-3">
             <h3 class="font-bold">Junior Program</h3>
             <p class="font-normal opacity-60">Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit 
@@ -208,247 +208,381 @@
 
        <!-- Our New Products section -->
 
-       <section class="mt-12 ml-40 mr-40 w-auto">
+       <section class="mt-12">
         <div class="gap-4 text-center mb-4">
           <h2 class="font-extrabold text-4xl">Our New Products</h2>
           <p class="font-medium opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
         </div>
         <!-- card section -->
 
-        <div class="flex gap-5">
-          <!-- card-1 -->
-        <div class="flex p-5 border border-[#0D0D121A] w-1/2">
-          <img src="Images/5.png" alt="">
-          <div class="gap-2 pl-5">           
-              <div class="flex gap-2 mb-3">
-                <div class="flex">
-                  <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
-                <h3 class="font-medium opacity-50">5.0</h3>
-                </div>            
-                <div class="flex opacity-50">
-                  <i class="fa-solid fa-eye pt-1"></i>
-                <h3 class="font-medium">20</h3>
-                </div>  
-                <div class="flex opacity-50">
-                  <i class="fa-regular fa-heart pt-1"></i>
-                <h3 class="font-medium">200</h3>
-                </div>
-              </div>
-              <div>
-                <div class="mb-3">
-                  <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
-                  <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- card-1 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
+            <img src="Images/5.png" alt="">
+            <div class="gap-2 pl-5">           
+                <div class="flex gap-2 mb-3">
+                  <div class="flex">
+                    <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
+                  <h3 class="font-medium opacity-50">5.0</h3>
+                  </div>            
+                  <div class="flex opacity-50">
+                    <i class="fa-solid fa-eye pt-1"></i>
+                  <h3 class="font-medium">20</h3>
+                  </div>  
+                  <div class="flex opacity-50">
+                    <i class="fa-regular fa-heart pt-1"></i>
+                  <h3 class="font-medium">200</h3>
+                  </div>
                 </div>
                 <div>
-                  <div class="flex gap-4">
-                    <div>
-                      <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
-                    </div>
+                  <div class="mb-3">
+                    <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
+                    <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                  </div>
+                  <div>
                     <div class="flex gap-4">
-                      <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
-                      <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      <div>
+                        <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
+                      </div>
+                      <div class="flex gap-4">
+                        <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
+                        <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>   
-          </div>
-          <!-- card-2 -->
-        <div class="flex p-5 border border-[#0D0D121A] w-1/2">
-          <img src="Images/6.png" alt="">
-          <div class="gap-2 pl-5">           
-              <div class="flex gap-2 mb-3">
-                <div class="flex">
-                  <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
-                <h3 class="font-medium opacity-50">5.0</h3>
-                </div>            
-                <div class="flex opacity-50">
-                  <i class="fa-solid fa-eye pt-1"></i>
-                <h3 class="font-medium">20</h3>
-                </div>  
-                <div class="flex opacity-50">
-                  <i class="fa-regular fa-heart pt-1"></i>
-                <h3 class="font-medium">200</h3>
-                </div>
-              </div>
-              <div>
-                <div class="mb-3">
-                  <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
-                  <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              </div>   
+            </div>
+            <!-- card-2 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
+            <img src="Images/6.png" alt="">
+            <div class="gap-2 pl-5">           
+                <div class="flex gap-2 mb-3">
+                  <div class="flex">
+                    <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
+                  <h3 class="font-medium opacity-50">5.0</h3>
+                  </div>            
+                  <div class="flex opacity-50">
+                    <i class="fa-solid fa-eye pt-1"></i>
+                  <h3 class="font-medium">20</h3>
+                  </div>  
+                  <div class="flex opacity-50">
+                    <i class="fa-regular fa-heart pt-1"></i>
+                  <h3 class="font-medium">200</h3>
+                  </div>
                 </div>
                 <div>
-                  <div class="flex gap-4">
-                    <div>
-                      <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
-                    </div>
+                  <div class="mb-3">
+                    <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
+                    <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                  </div>
+                  <div>
                     <div class="flex gap-4">
-                      <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
-                      <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      <div>
+                        <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
+                      </div>
+                      <div class="flex gap-4">
+                        <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
+                        <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>   
-          </div>
+              </div>   
+            </div>
+  
+             <!-- card-3 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
+            <img src="Images/7.png" alt="">
+            <div class="gap-2 pl-5">           
+                <div class="flex gap-2 mb-3">
+                  <div class="flex">
+                    <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
+                  <h3 class="font-medium opacity-50">5.0</h3>
+                  </div>            
+                  <div class="flex opacity-50">
+                    <i class="fa-solid fa-eye pt-1"></i>
+                  <h3 class="font-medium">20</h3>
+                  </div>  
+                  <div class="flex opacity-50">
+                    <i class="fa-regular fa-heart pt-1"></i>
+                  <h3 class="font-medium">200</h3>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-3">
+                    <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
+                    <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                  </div>
+                  <div>
+                    <div class="flex gap-4">
+                      <div>
+                        <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
+                      </div>
+                      <div class="flex gap-4">
+                        <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
+                        <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+            </div>
+            <!-- card-4 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
+            <img src="Images/8.png" alt="">
+            <div class="gap-2 pl-5">           
+                <div class="flex gap-2 mb-3">
+                  <div class="flex">
+                    <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
+                  <h3 class="font-medium opacity-50">5.0</h3>
+                  </div>            
+                  <div class="flex opacity-50">
+                    <i class="fa-solid fa-eye pt-1"></i>
+                  <h3 class="font-medium">20</h3>
+                  </div>  
+                  <div class="flex opacity-50">
+                    <i class="fa-regular fa-heart pt-1"></i>
+                  <h3 class="font-medium">200</h3>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-3">
+                    <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
+                    <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                  </div>
+                  <div>
+                    <div class="flex gap-4">
+                      <div>
+                        <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
+                      </div>
+                      <div class="flex gap-4">
+                        <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
+                        <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+            </div>
+           
+              <!-- card-5 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
+            <img src="Images/9.png" alt="">
+            <div class="gap-2 pl-5">           
+                <div class="flex gap-2 mb-3">
+                  <div class="flex">
+                    <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
+                  <h3 class="font-medium opacity-50">5.0</h3>
+                  </div>            
+                  <div class="flex opacity-50">
+                    <i class="fa-solid fa-eye pt-1"></i>
+                  <h3 class="font-medium">20</h3>
+                  </div>  
+                  <div class="flex opacity-50">
+                    <i class="fa-regular fa-heart pt-1"></i>
+                  <h3 class="font-medium">200</h3>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-3">
+                    <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
+                    <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                  </div>
+                  <div>
+                    <div class="flex gap-4">
+                      <div>
+                        <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
+                      </div>
+                      <div class="flex gap-4">
+                        <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
+                        <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+            </div>
+            <!-- card-6 -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
+            <img src="Images/10.png" alt="">
+            <div class="gap-2 pl-5">           
+                <div class="flex gap-2 mb-3">
+                  <div class="flex">
+                    <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
+                  <h3 class="font-medium opacity-50">5.0</h3>
+                  </div>            
+                  <div class="flex opacity-50">
+                    <i class="fa-solid fa-eye pt-1"></i>
+                  <h3 class="font-medium">20</h3>
+                  </div>  
+                  <div class="flex opacity-50">
+                    <i class="fa-regular fa-heart pt-1"></i>
+                  <h3 class="font-medium">200</h3>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-3">
+                    <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
+                    <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                  </div>
+                  <div>
+                    <div class="flex gap-4">
+                      <div>
+                        <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
+                      </div>
+                      <div class="flex gap-4">
+                        <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
+                        <p class="font-medium opacity-60">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+            </div>
         </div>
+       </section>
 
-        <div class="flex gap-5">
-           <!-- card-3 -->
-        <div class="flex p-5 border border-[#0D0D121A] w-1/2">
-          <img src="Images/7.png" alt="">
-          <div class="gap-2 pl-5">           
-              <div class="flex gap-2 mb-3">
-                <div class="flex">
-                  <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
-                <h3 class="font-medium opacity-50">5.0</h3>
-                </div>            
-                <div class="flex opacity-50">
-                  <i class="fa-solid fa-eye pt-1"></i>
-                <h3 class="font-medium">20</h3>
-                </div>  
-                <div class="flex opacity-50">
-                  <i class="fa-regular fa-heart pt-1"></i>
-                <h3 class="font-medium">200</h3>
-                </div>
-              </div>
-              <div>
-                <div class="mb-3">
-                  <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
-                  <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
-                </div>
-                <div>
-                  <div class="flex gap-4">
-                    <div>
-                      <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
-                    </div>
-                    <div class="flex gap-4">
-                      <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
-                      <p class="font-medium opacity-60">Delivery Fee : Free</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>   
+       <!-- Clients Question section -->
+       <section class="mt-12">
+        <div class="text-center mb-4">
+          <h2 class="font-extrabold text-4xl">Clients Question</h2>
+          <p class="font-medium opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="flex gap-10 p-8 border border-[#0D0D121A]">
+          <div>
+            <img class="h-[470px] w-[441px]" src="Images/11.png" alt="">
           </div>
-          <!-- card-4 -->
-        <div class="flex p-5 border border-[#0D0D121A] w-1/2">
-          <img src="Images/8.png" alt="">
-          <div class="gap-2 pl-5">           
-              <div class="flex gap-2 mb-3">
-                <div class="flex">
-                  <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
-                <h3 class="font-medium opacity-50">5.0</h3>
-                </div>            
-                <div class="flex opacity-50">
-                  <i class="fa-solid fa-eye pt-1"></i>
-                <h3 class="font-medium">20</h3>
-                </div>  
-                <div class="flex opacity-50">
-                  <i class="fa-regular fa-heart pt-1"></i>
-                <h3 class="font-medium">200</h3>
-                </div>
+          <div class="w-2/3 h-auto">
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title gap-20 text-xl font-medium">
+                Our Equipment
               </div>
-              <div>
-                <div class="mb-3">
-                  <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
-                  <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
-                </div>
-                <div>
-                  <div class="flex gap-4">
-                    <div>
-                      <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
-                    </div>
-                    <div class="flex gap-4">
-                      <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
-                      <p class="font-medium opacity-60">Delivery Fee : Free</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="collapse-content"> 
+                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
               </div>
-            </div>   
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
           </div>
         </div>
-         
-          <div class="flex gap-5">
-            <!-- card-5 -->
-        <div class="flex p-5 border border-[#0D0D121A] w-1/2">
-          <img src="Images/9.png" alt="">
-          <div class="gap-2 pl-5">           
-              <div class="flex gap-2 mb-3">
-                <div class="flex">
-                  <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
-                <h3 class="font-medium opacity-50">5.0</h3>
-                </div>            
-                <div class="flex opacity-50">
-                  <i class="fa-solid fa-eye pt-1"></i>
-                <h3 class="font-medium">20</h3>
-                </div>  
-                <div class="flex opacity-50">
-                  <i class="fa-regular fa-heart pt-1"></i>
-                <h3 class="font-medium">200</h3>
-                </div>
-              </div>
-              <div>
-                <div class="mb-3">
-                  <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
-                  <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
-                </div>
-                <div>
-                  <div class="flex gap-4">
-                    <div>
-                      <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
-                    </div>
-                    <div class="flex gap-4">
-                      <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
-                      <p class="font-medium opacity-60">Delivery Fee : Free</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>   
+       </section>
+
+
+
+       <!--  Get In Touch section-->
+       <section class="mt-12">
+        <div class="text-center mb-4 border border-[#0D0D121A]">
+          <h2 class="font-extrabold text-2xl">Get In Touch</h2>
+          <p class="font-medium opacity-60">Dit amet consectetur. Condimentum dignissim <br> adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid grid-cols-1 border border-[#0D0D1299] ">
+          <div class="border pt-10 gap-2 pl-8 w-[374px] h-[216px] bg-[#BCED6D1A] border-[#0D0D1299]">
+            <img src="Images/Group 1171275317.png" alt="">
+            <p>Phone Number :</p>
+            <h5>(+62) 123-321-543</h5>
           </div>
-          <!-- card-6 -->
-        <div class="flex p-5 border border-[#0D0D121A] w-1/2">
-          <img src="Images/10.png" alt="">
-          <div class="gap-2 pl-5">           
-              <div class="flex gap-2 mb-3">
-                <div class="flex">
-                  <i class="fa-solid text-[#f99808] fa-star pt-1"></i>
-                <h3 class="font-medium opacity-50">5.0</h3>
-                </div>            
-                <div class="flex opacity-50">
-                  <i class="fa-solid fa-eye pt-1"></i>
-                <h3 class="font-medium">20</h3>
-                </div>  
-                <div class="flex opacity-50">
-                  <i class="fa-regular fa-heart pt-1"></i>
-                <h3 class="font-medium">200</h3>
-                </div>
-              </div>
-              <div>
-                <div class="mb-3">
-                  <h2 class="font-extrabold text-xl mb-3">World Cup Flags Football</h2>
-                  <p class="font-medium opacity-60">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
-                </div>
-                <div>
-                  <div class="flex gap-4">
-                    <div>
-                      <input class="text-[#FF4240] font-bold text-lg" type="button" value="Price - $22.00">
-                    </div>
-                    <div class="flex gap-4">
-                      <i class="fa-solid fa-cart-shopping pt-1 opacity-50"></i>
-                      <p class="font-medium opacity-60">Delivery Fee : Free</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>   
+          <div class="border bg-[#FDDD5F1A] border-[#0D0D1299]">
+            <img src="Images/Group 1171275318.png" alt="">
+            <p>Email :</p>
+            <h5>hockeys@support.com</h5>
           </div>
+          <div class="border bg-[#629CF31A] border-[#0D0D1299]">
+            <img src="Images/Group 1171275321.png" alt="">
+            <p>Location :</p>
+            <h5>152/1 Mohakhali Wireless Gate</h5>
           </div>
+        </div>
        </section>
     </main>
-    <footer>
 
+    <!-- footer section -->
+    <footer class="footer mt-4 p-10 bg-[#131318] text-white">
+      <div>
+        <div>
+          <h2 class="font-extrabold text-2xl">Get In Touch</h2>
+          <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum <br>
+             adipiscing aliquam turpis placerat dolor. <br>
+               Purus urna in sit nullam proin. </p>
+        </div>
+        <div>
+          <div class="flex gap-3">
+            <i class="fa-regular pt-1 text-red-800 fa-envelope"></i>
+            <p class="text-[#FFFFFF99]">hockeys@support.com</p>
+          </div>
+          <div class="flex gap-3">
+            <i class="fa-solid text-red-800 pt-1 fa-phone"></i>
+            <p class="text-[#FFFFFF99]">(+62) 123-321-543</p>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover text-[#FFFFFF99]">About us</a>
+        <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
+        <a class="link link-hover text-[#FFFFFF99]">Careers</a>
+        <a class="link link-hover text-[#FFFFFF99]">News & Article</a>
+        <a class="link link-hover text-[#FFFFFF99]">Legal Notice</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Support</header> 
+        <a class="link link-hover text-[#FFFFFF99]">Help Center</a>
+        <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
+        <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
+        <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover text-[#FFFFFF99]">Academy</a>
+        <a class="link link-hover text-[#FFFFFF99]">Group Lesson</a>
+        <a class="link link-hover text-[#FFFFFF99]">Private Lesson</a>
+        <a class="link link-hover text-[#FFFFFF99]">Hockeys for kids</a>
+        <a class="link link-hover text-[#FFFFFF99]">Hockeys for Adult</a>
+      </nav>
     </footer>
     
 </body>
