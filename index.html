@@ -37,36 +37,45 @@
 <body>
     <header class="md:container md:mx-auto">
       <!-- section Navbar Start -->
-        <section>
-            <div class="navbar">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                        <h2 class="text-4xl font-extrabold">Hockey<span class="text-red-800">’</span>s</h2>
-                  </div>
-                </div>
-                <div class="navbar-center text-sm font-normal gap-10 mt-4">
-                  <a class="text-red-600">Home</a>
-                  <a>About</a>
-                  <a>Pages</a>
-                  <a>Blog</a>
-                  <a>Contact</a>
-                </div>
-                <div class="navbar-end">
-                  <button class="btn-circle">
-                    <i class="fa-solid fa-magnifying-glass mt-4"></i>
-                  </button>
-                  <button class="btn mt-3 text-xl font-bold text-white bg-[#FF4240]">
-                    Get Ticket
-                  </button>
-                </div>
-              </div>
-        </section>
+     <section>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="text-red-700 font-bold text-xl">Home</a></li>
+              <li><a class="text-[#424247] text-xl">About</a></li>
+              <li><a class="text-[#424247] text-xl">Pages</a></li>
+              <li><a class="text-[#424247] text-xl">Blog</a></li>
+              <li><a class="text-[#424247] text-xl">Contact</a></li>
+            </ul>
+            
+          </div>
+          <a class="text-4xl font-extrabold">Hockey<span class="text-red-950">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-2 mt-3">
+            <li><a class="text-red-700 font-bold text-xl">Home</a></li>
+            <li><a class="text-[#424247] text-xl">About</a></li>
+            <li><a class="text-[#424247] text-xl">Pages</a></li>
+            <li><a class="text-[#424247] text-xl">Blog</a></li>
+            <li><a class="text-[#424247] text-xl">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <i class="hidden lg:inline fa-solid pr-8 pt-3 fa-magnifying-glass"></i>
+          <button class="rounded-xl py-4 px-6 mt-4 text-center font-bold text-xl text-white bg-[#FF4240]">Get Ticket</button>
+        </div>
+      </div>
+     </section>
         <!-- navber END -->
 
         <!-- Banner Start -->
-        <section class=" relative mt-12">
+        <section class="gap-4 grid grid-cols-1 mx-3 lg:relative mt-14">
           <div class="carousel w-full rounded-2xl ">
-            <div id="slide1" class="carousel-item relative w-full h-3/4 ">
+            <div id="slide1" class="carousel-item relative w-full  ">
               <img src="Images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle border-none bg-[#131318] text-white">❮</a> 
@@ -82,17 +91,17 @@
             </div>
             </div>
             <!-- little banner section -->
-            <div class="absolute bottom-8 -right-32">
-              <div class=" bg-[#131318] w-4/5 p-8 rounded-2xl gap-2">
+            <div class=" lg:absolute bottom-8 -right-32">
+              <div class=" bg-[#131318] lg:w-4/5 p-8 rounded-2xl gap-2">
                 <h4 class="text-2xl pb-4 text-white font-extrabold">Meet all the heroes from the field</h4>
-                <p class="text-base font-medium text-[#FFFFFF99] opacity-60">Hockey is a fast-paced and exhilarating team sport played on ice, known for its intense physicality and strategic gameplay.</p>
+                <p class="text-base font-medium text-[#FFFFFF99] opacity-60">Hockey is a fast-paced and exhilarating team sport played on ice, known for its intense physicality and strategic gameplay.So, I want to play Hockey</p>
               </div>
             </div>
         </section>
 
         <!-- Professional Hockeys Club section -->
         <section class="mt-24">
-          <div class="text-center mb-10 lg:border border-[#13131833] border-opacity-20">
+          <div class="text-center mb-10 mx-4 lg:border border-[#13131833] border-opacity-20">
             <h3 class="font-extrabold text-4xl text-[#131318] pt-8 pb-6">Professional Hockeys Club</h3>
             <p class="font-medium pb-8 text-[#131318] opacity-60">Two teams, each consisting of six players, including a goaltender, <br> compete to score goals by propelling a small, hard rubber puck into the <br> opposing team's net using a stick.</p>
           </div>
@@ -171,7 +180,7 @@
     <main class="md:container md:mx-auto">
        <!-- Program Sections -->
        <section class="mt-24">
-          <div class="text-center mb-10 lg:border border-[#13131833] border-opacity-20">
+          <div class="text-center mb-10 mx-4 lg:border border-[#13131833] border-opacity-20">
             <h2 class="font-extrabold text-4xl text-[#131318] pt-8 pb-6">Program Sections</h2>
             <p class="font-medium pb-8 text-[#131318] opacity-60">The game is divided into three periods, and players maneuver skillfully across the icy surface, <br> showcasing agility, speed, and coordination.</p>
           </div>
@@ -206,7 +215,7 @@
        <!-- Our New Products section -->
 
        <section class="mt-24">
-        <div class="gap-4 text-center mb-4 lg:border border-[#131318] border-opacity-20">
+        <div class="text-center mx-4 mb-4 lg:border border-[#131318] border-opacity-20">
           <h2 class="font-extrabold text-4xl pt-8 pb-6">Our New Products</h2>
           <p class="font-medium opacity-60 pb-8">Hockey has a rich history, with variations like field hockey and roller hockey, <br> but ice hockey, particularly popular in North America, Europe, and other cold-climate regions.</p>
         </div>
@@ -216,7 +225,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
             <!-- card-1 -->
           <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
-            <img src="Images/5.png" alt="">
+            <img class="w-full lg:w-3/5" src="Images/5.png" alt="">
             <div class="gap-2 pl-5">           
                 <div class="flex gap-2 mb-3">
                   <div class="flex">
@@ -253,7 +262,7 @@
             </div>
             <!-- card-2 -->
           <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
-            <img src="Images/6.png" alt="">
+            <img  class="w-full lg:w-3/5" src="Images/6.png" alt="">
             <div class="gap-2 pl-5">           
                 <div class="flex gap-2 mb-3">
                   <div class="flex">
@@ -290,7 +299,7 @@
             </div>
              <!-- card-3 -->
           <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
-            <img src="Images/7.png" alt="">
+            <img  class="w-full lg:w-3/5"  src="Images/7.png" alt="">
             <div class="gap-2 pl-5">           
                 <div class="flex gap-2 mb-3">
                   <div class="flex">
@@ -327,7 +336,7 @@
             </div>
             <!-- card-4 -->
           <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
-            <img src="Images/8.png" alt="">
+            <img  class="w-full lg:w-3/5"  src="Images/8.png" alt="">
             <div class="gap-2 pl-5">           
                 <div class="flex gap-2 mb-3">
                   <div class="flex">
@@ -364,7 +373,7 @@
             </div>
               <!-- card-5 -->
           <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
-            <img src="Images/9.png" alt="">
+            <img  class="w-full lg:w-3/5"  src="Images/9.png" alt="">
             <div class="gap-2 pl-5">           
                 <div class="flex gap-2 mb-3">
                   <div class="flex">
@@ -401,7 +410,7 @@
             </div>
             <!-- card-6 -->
           <div class="grid grid-cols-1 lg:grid-cols-2 p-5 border border-[#0D0D121A]">
-            <img src="Images/10.png" alt="">
+            <img  class="w-full lg:w-3/5"  src="Images/10.png" alt="">
             <div class="gap-2 pl-5">           
                 <div class="flex gap-2 mb-3">
                   <div class="flex">
@@ -441,15 +450,15 @@
 
        <!-- Clients Question section -->
        <section class="mt-24">
-        <div class="text-center mb-4 lg:border border-[#131318] border-opacity-20">
-          <h2 class="font-extrabold text-4xl pt-8 pb-6">Clients Question</h2>
+        <div class="text-center mb-4 mx-4 lg:border border-[#131318] border-opacity-20">
+          <h2 class="font-extrabold text-[#131318] text-4xl pt-8 pb-6">Clients Question</h2>
           <p class="font-medium opacity-60 pb-8">Hockey has a rich history, with variations like field Europe, and other cold-climate regions, <br> has become a cultural phenomenon.</p>
         </div>
-        <div class="flex gap-10 p-8 border border-[#0D0D121A]">
+        <div class="grid grid-cols-1 mb-4 lg:grid-cols-2 p-8 border border-[#0D0D121A]">
           <div>
-            <img class="h-[470px] w-[441px]" src="Images/11.png" alt="">
+            <img class="w-[287px] h-[180px] lg:h-[470px] w-[441px]" src="Images/11.png" alt="">
           </div>
-          <div class="w-2/3 h-auto">
+          <div class="w-auto h-auto">
             <div class="collapse collapse-plus lg:border border-[#1313181A] border-opacity-10">
               <input type="radio" name="my-accordion-3" checked="checked" /> 
               <div class="collapse-title gap-20 text-xl font-bold">
@@ -522,26 +531,26 @@
        <!--  Get In Touch section-->
        <section class="mt-24">
         <div class="mb-11">
-          <div class="text-center pb-4 border border-[#0D0D121A] border-opacity-20">
+          <div class="text-center mb-4 mx-4 lg:border border-[#0D0D121A] border-opacity-20">
             <h2 class="font-extrabold pb-6 pt-8 text-[#131318] text-4xl">Get In Touch</h2>
             <p class="font-medium pb-8 opacity-60">Hockey has a rich history, with variations like field Europe, and other cold-climate regions, <br> has become a cultural phenomenon.</p>
           </div>
   
         </div>
-       <div class="flex gap-9">
+       <div class="grid grid-cols-1 lg:flex gap-9">
          <!-- left section -->
-         <div class="grid gap-6 p-12 grid-cols-1 border border-[#424247] border-opacity-20 rounded-2xl ">
-          <div class="border rounded-2xl pt-12 gap-2 pl-8 w-[374px] h-[216px] bg-[#BCED6D1A]">
+         <div class="grid grid-cols-1 mx-4 mb-4 lg:border border-[#424247] border-opacity-20 rounded-2xl ">
+          <div class="w-[287px] h-[184px] lg:border rounded-2xl pt-12 gap-2 pl-8 w-[374px] h-[216px] bg-[#BCED6D1A]">
             <img class="pb-6" src="Images/Group 1171275317.png" alt="">
             <p class="opacity-40">Phone Number :</p>
             <h5 class="font-bold text-xl">(+62) 123-321-543</h5>
           </div>
-          <div class="border rounded-2xl pt-12 gap-2 pl-8 w-[374px] h-[216px] bg-[#FDDD5F1A] ">
+          <div class="w-[287px] h-[184px] lg:border rounded-2xl pt-12 gap-2 pl-8 w-[374px] h-[216px] bg-[#FDDD5F1A] ">
             <img class="pb-6" src="Images/Group 1171275318.png" alt="">
             <p class="opacity-40">Email :</p>
             <h5 class="font-bold text-xl">hockeys@support.com</h5>
           </div>
-          <div class="border rounded-2xl pt-12 gap-2 pl-8 w-[374px] h-[216px] bg-[#629CF31A] ">
+          <div class="w-[287px] h-[184px] lg:border rounded-2xl pt-12 gap-2 pl-8 w-[374px] h-[216px] bg-[#629CF31A] ">
             <img class="pb-6" src="Images/Group 1171275321.png" alt="">
             <p class="opacity-40">Location :</p>
             <h5 class="font-bold text-xl">152/1 Mohakhali Wireless Gate</h5>
@@ -549,8 +558,8 @@
         </div>
 
         <!-- right section -->
-        <div class="border border-[#0D0D121A] w-2/3">
-          <div class="flex gap-8">
+        <div class="lg:border border-[#0D0D121A] w-2/3">
+          <div class="grid grid-cols-1 lg:flex gap-8">
             <form>
               <fieldset class="form-control">
                 <label class="label">
